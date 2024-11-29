@@ -1,0 +1,50 @@
+/* src/App.css or src/components/GameExplanation.css */
+
+/* Styles for the GameExplanation component */
+.game-explanation {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .game-explanation .game-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .game-explanation .game-description {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .game-explanation .rules-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .game-explanation .rules-list,
+  .game-explanation .payoffs-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #444;
+  }
+  
+  .game-explanation .payoffs-list {
+    list-style-type: circle;
+    margin-left: 40px;
+  }
+  
+  .game-explanation li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  
